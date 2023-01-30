@@ -25,9 +25,7 @@ nav {
 
 .jumbo {
     background-color: rgb(180, 208, 231);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
 
     /* debug */
     width: 100%;
@@ -38,7 +36,7 @@ nav {
 .jumbo-container {
     width: 1000px;
     /* height: 100%; */
-    margin: 160px auto 0;
+    margin: 80px auto 0;
 
     /* debug */
     background-color: hotpink;
@@ -56,4 +54,20 @@ nav {
 /* debug */
 .immagine {
 
+}
+
+
+#main-container {
+    display: flex;
+    align-content: stretch;
+
+    /* debug */
+    height: 1000px;
+}
+
+
+/* debug */
+footer {
+    background-color: black;
+    height: 400px;
 }
