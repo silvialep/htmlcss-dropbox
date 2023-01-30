@@ -34,12 +34,12 @@ nav {
     gap: 30px;
 }
 
-a:link {
+nav a:link {
     text-decoration: none;
     color: black;
 }
 
-a:visited {
+nav a:visited {
     color: black;
 }
 
@@ -108,7 +108,7 @@ button {
 
 
 .main-container {
-    width: 800px;
+    width: 900px;
     margin: auto;
 }
 
@@ -159,6 +159,7 @@ button {
     width: 30%;
     height: auto;
     font-size: small;
+    padding-bottom: 40px;
 
     border: 1px solid black;
 }
@@ -191,13 +192,40 @@ button {
     padding-top: 30px;
 }
 
+.titolo h3 {
+    font-size: large;
+}
+
 .features {
     align-self: flex-start;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     padding-top: 30px;
 }
+
+.una-riga {
+    display: flex;
+    gap: 10px;
+}
+
+.link-centrali a:link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.divisorio {
+    color: lightgray;
+    width: 40px;
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+.punti-salienti .una-riga i {
+    color: rgb(0, 64, 255);
+    font-size:large;
+}
+
 
 .sezione-centrata {
     width: 100%;
