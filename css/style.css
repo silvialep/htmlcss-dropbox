@@ -48,10 +48,6 @@ button {
     line-height: 78px;
     border: transparent;
 }
-/* 
-button:hover {
-    border-bottom-color: blue;
-} */
 
 .btn-blu {
     line-height: normal;
@@ -96,7 +92,7 @@ button:hover {
 }
 
 .btn-blu.btn-centrali {
-    width: 180px;
+    width: 190px;
 }
 
 .fa-arrow-down {
@@ -114,11 +110,6 @@ button:hover {
 .main-container {
     width: 800px;
     margin: auto;
-
-    /* debug */
-    /* height: 3000px; */
-    /* border: 1px solid black; */
-    /* background-color: coral; */
 }
 
 
@@ -126,36 +117,94 @@ button:hover {
     width: 100%;
     padding-top: 150px;
 
-
-    /* debug */
-    height: 800px;
-    /* background-color: red; */
-
+    font-size: smaller;
 }
 
-#business-plan h2 {
-    font-size: 2em;
+.main-container h2 {
+    font-size: 2.5em;
 }
+
+.fatturazione {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+    padding: 40px 0;
+    line-height: 1em;
+}
+
+
+
+/* prova per falsa checkbox */
+.cerchio {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 4px solid rgb(0, 64, 255);
+    border-radius: 50%;
+}
+/* /prova per falsa checkbox */
+
+
 
 .piani-divisi {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-content: stretch;
-
-    height: auto;
 }
+
 
 .colonna {
     width: 30%;
     height: auto;
+    font-size: small;
 
+    border: 1px solid black;
+}
 
-    /* debug */
-    background-color: blueviolet;
+.intestazione {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+}
+
+.contenuto {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    align-items: center;
+}
+
+.titolo {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.features {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
 }
 
 .sezione-centrata {
     width: 100%;
+
+    margin-top: 50px;
+
+    border: 1px solid black;
 
 
     /* debug */
