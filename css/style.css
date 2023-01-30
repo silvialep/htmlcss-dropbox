@@ -14,14 +14,54 @@ body {
 nav {
     width: 100%;
     height: 80px;
+    padding: 10px;
 
     position: fixed;
+    top: 0;
     z-index: 2;
 
-    /* debug */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     background-color: rgb(255, 255, 255);
 }
 
+.link-left, .link-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+button {
+    background-color: transparent;
+    line-height: 78px;
+    border: transparent;
+}
+/* 
+button:hover {
+    border-bottom-color: blue;
+} */
+
+.btn-blu {
+    line-height: normal;
+    background-color: rgb(0, 97, 255);
+    padding: 8px 10px;
+    color: white;
+}
+
+.btn-blu a:visited {
+    color: white;
+}
 
 
 .jumbo {
@@ -30,17 +70,13 @@ nav {
     /* debug */
     width: 100%;
     height: 750px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0)
 }
 
 .jumbo-container {
     max-width: 1100px;
     margin: 80px auto 0;
     padding-top: 70px;
-
-    /* debug */
-    /* background-color: hotpink; */
-    border: 1px solid black;
 }
 
 .jumbo-container h1 {
@@ -62,32 +98,25 @@ nav {
 
 
 .main-container {
-
     width: 800px;
     margin: auto;
 
     /* debug */
     /* height: 3000px; */
-    border: 1px solid black;
-    background-color: coral;
-}
-
-
-/* div provvisorio in attesa di un'idea migliore */
-.finto-padding {
-    width: 100%;
-    height: 150px;
+    /* border: 1px solid black; */
+    /* background-color: coral; */
 }
 
 
 #business-plan {
     width: 100%;
+    padding-top: 150px;
 
 
     /* debug */
     height: 800px;
-    background-color: red;
-    
+    /* background-color: red; */
+
 }
 
 #business-plan h2 {
@@ -105,7 +134,7 @@ nav {
 .colonna {
     width: 30%;
     height: auto;
-    
+
 
     /* debug */
     background-color: blueviolet;
@@ -122,8 +151,8 @@ nav {
 
 .partner {
     width: 100%;
-    
-    
+
+
     /* debug */
     height: 500px;
     background-color:darkolivegreen;
@@ -131,8 +160,8 @@ nav {
 
 .operations {
     width: 100%;
-    
-    
+
+
     /* debug */
     height: 800px;
     background-color:mediumpurple;
@@ -140,8 +169,8 @@ nav {
 
 .team-business {
     width: 100%;
-    
-    
+
+
     /* debug */
     height: 200px;
     background-color:seagreen;
@@ -150,8 +179,8 @@ nav {
 
 .carosello {
     width: 100vw;
-    
-    
+
+
     /* debug */
     background-color: seagreen;
     height: 300px;
@@ -160,8 +189,8 @@ nav {
 
 .prova-gratuita {
     width: 100%;
-    
-    
+
+
     /* debug */
     height: 200px;
     background-color:aqua;
@@ -170,8 +199,8 @@ nav {
 
 .faq {
     width: 100%;
-    
-    
+
+
     /* debug */
     height: 200px;
     background-color: seagreen;
