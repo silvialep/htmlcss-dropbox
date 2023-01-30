@@ -19,7 +19,7 @@ nav {
     z-index: 2;
 
     /* debug */
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -44,13 +44,14 @@ nav {
 }
 
 .jumbo-container h1 {
-    font-size: 4.7em;
+    font-size: 4.5em;
+    font-weight: 800;
 }
 
 .jumbo-inner {
     display: flex;
     justify-content: space-between;
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 
@@ -60,18 +61,124 @@ nav {
 }
 
 
-#main-container {
-    display: flex;
-    align-content: stretch;
+.main-container {
 
     width: 800px;
     margin: auto;
 
     /* debug */
-    height: 1000px;
+    /* height: 3000px; */
     border: 1px solid black;
     background-color: coral;
 }
+
+
+/* div provvisorio in attesa di un'idea migliore */
+.finto-padding {
+    width: 100%;
+    height: 150px;
+}
+
+
+#business-plan {
+    width: 100%;
+
+
+    /* debug */
+    height: 800px;
+    background-color: red;
+    
+}
+
+#business-plan h2 {
+    font-size: 2em;
+}
+
+.piani-divisi {
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+
+    height: auto;
+}
+
+.colonna {
+    width: 30%;
+    height: auto;
+    
+
+    /* debug */
+    background-color: blueviolet;
+}
+
+.sezione-centrata {
+    width: 100%;
+
+
+    /* debug */
+    height: 200px;
+    background-color: chartreuse;
+}
+
+.partner {
+    width: 100%;
+    
+    
+    /* debug */
+    height: 500px;
+    background-color:darkolivegreen;
+}
+
+.operations {
+    width: 100%;
+    
+    
+    /* debug */
+    height: 800px;
+    background-color:mediumpurple;
+}
+
+.team-business {
+    width: 100%;
+    
+    
+    /* debug */
+    height: 200px;
+    background-color:seagreen;
+}
+
+
+.carosello {
+    width: 100vw;
+    
+    
+    /* debug */
+    background-color: seagreen;
+    height: 300px;
+}
+
+
+.prova-gratuita {
+    width: 100%;
+    
+    
+    /* debug */
+    height: 200px;
+    background-color:aqua;
+}
+
+
+.faq {
+    width: 100%;
+    
+    
+    /* debug */
+    height: 200px;
+    background-color: seagreen;
+}
+
+
+
 
 
 /* debug */
