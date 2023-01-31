@@ -9,6 +9,10 @@ body {
     position: relative;
 }
 
+.main-container h2 {
+    font-size: 3em;
+}
+
 
 
 nav {
@@ -138,10 +142,6 @@ button {
 #business-plan {
     padding-top: 150px;
     font-size: small;
-}
-
-.main-container h2 {
-    font-size: 3em;
 }
 
 .fatturazione {
@@ -320,26 +320,59 @@ button {
 
 
 
-
+/* __________sezione operazioni business________ */
 
 .operations {
-    width: 100%;
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
-
-    /* debug */
-    height: 800px;
-    background-color:mediumpurple;
+    margin-bottom: 150px;
 }
+
+.operations .business-box {
+    width: 30%;
+    margin-top: 50px;
+}
+
+.operations .business-box h3 {
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.operations .business-box .box-image img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+/* ______sezione 500mila team__________ */
 
 .team-business {
-    width: 100%;
-
-
-    /* debug */
-    height: 200px;
-    background-color:seagreen;
+    max-width: 70%;
+    font-size: small;
+    margin-bottom: 150px;
 }
 
+.team-business h2 {
+    margin-bottom: 50px;
+}
+
+.team-business a:link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.team-business a:visited {
+    color: blueviolet;
+}
 
 
 /* ______________carosello___________ */
@@ -426,17 +459,38 @@ button {
 
 
 
+/* ________prova gratuita__________ */
 
 
 .prova-gratuita {
-    
-    
-    /* debug */
-    width: 100%;
-    height: 200px;
-    background-color:aqua;
+    padding: 150px 0;
+    font-size: small;
+    background-color: rgb(180, 208, 231);
 }
 
+.prova-gratuita .una-riga {
+    gap: 100px;
+}
+
+.prova-gratuita .una-riga h2 {
+    width: 70%;
+    color: rgb(97, 8, 43);
+}
+
+.prova-gratuita .una-riga .btn-container {
+    min-width: 30%;
+}
+
+.prova-gratuita .una-riga .btn-container .btn-bianco {
+    width: 100%;
+}
+
+
+
+
+
+
+/* _______domande frequenti___________ */
 
 .faq {
     
