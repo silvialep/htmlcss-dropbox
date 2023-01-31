@@ -341,14 +341,70 @@ button {
 }
 
 
-.carosello {
-    
-    
-    /* debug */
-    width: 100%;
-    background-color: seagreen;
-    height: 300px;
+
+/* ______________carosello___________ */
+
+
+#carosello {
+    display: flex;
 }
+
+#carosello .car-side {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+
+#carosello .car-center {
+    flex-grow: 1;
+}
+
+#carosello .car-side .square {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
+
+#carosello .car-side .square img {
+    max-width: 50%;
+    height: auto;
+    object-fit: contain;
+    filter: invert(100%);
+}
+
+.square-1 {
+    background-color: rgb(162, 211, 155);
+    border: 10px solid rgb(209, 233, 205);
+}
+
+.square-2 {
+    background-color: rgb(97, 8, 43);
+}
+
+.square-3 {
+    
+}
+
+.square-
+
+.square-
+
+.square-
+
+.square-
+
+.square-
+
+.square-
+
+.square-
+
+
+
+
+
 
 
 .prova-gratuita {
