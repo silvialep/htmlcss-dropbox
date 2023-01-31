@@ -166,11 +166,13 @@ button {
 /* /prova per falsa checkbox */
 
 
+/* __________colonne_____________ */
 
 .piani-divisi {
     display: flex;
     justify-content: space-between;
     align-content: stretch;
+    margin-bottom: 50px;
 }
 
 
@@ -253,9 +255,10 @@ button {
 
 
 
+/* __________riga centrale_____________ */
 
 .sezione-centrata {
-    margin: 50px 0;
+    margin-bottom: 150px;
     height: auto;
     border: 1px solid gray;
 }
@@ -285,14 +288,39 @@ button {
 }
 
 
+/* ________sezione partner_______________ */
+
 .partner {
-    width: 100%;
-
-
-    /* debug */
-    height: 500px;
-    background-color:darkolivegreen;
+    margin-bottom: 150px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
 }
+
+.partner .jumbo-img {
+    max-width: 60%;
+}
+
+.partner .jumbo-testo {
+    padding: 40px 20px 0 0;
+    width: 40%;
+}
+
+.btn-bianco {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.partner .jumbo-testo .btn-bianco {
+    width: 50%;
+}
+
+
+
+
 
 .operations {
     width: 100%;
