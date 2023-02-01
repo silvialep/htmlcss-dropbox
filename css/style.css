@@ -35,17 +35,14 @@ nav ul {
     list-style-type: none;    
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:center;
     gap: 30px;
 
 }
 
-nav ul li {
+nav ul li a {
     display: flex;
-    justify-content: center;
-    align-items: center;
     line-height: 80px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0);
 }
 
 a:link {
@@ -549,4 +546,8 @@ footer .lingua-footer {
 
 footer .lingua-footer span {
     padding-right: 10px; 
+}
+
+footer .lingua-footer span a {
+    color: white;
 }
