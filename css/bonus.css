@@ -41,12 +41,9 @@ button {
 }
 
 /* checkbox - radio button */
-.fatturazione-bonus {
-    display: none;
-    /* display: flex; */
-    gap: 30px;
-    margin-top: 50px;
-}
+/* .fatturazione-bonus {
+    display: flex;
+} */
 
 /* hover su freccia in jumbo */
 
