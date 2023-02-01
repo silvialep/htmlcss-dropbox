@@ -32,9 +32,7 @@ nav {
 }
 
 nav ul {
-    list-style-type: none;
-    height: 100%;
-    
+    list-style-type: none;    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -43,15 +41,11 @@ nav ul {
 }
 
 nav ul li {
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.bonus a:hover {
     line-height: 80px;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
 }
 
 a:link {
@@ -123,9 +117,7 @@ button {
 
 
 .jumbo-img img {
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
+    width: 100%;
 }
 
 
@@ -342,8 +334,7 @@ button {
 }
 
 .operations .business-box .box-image img {
-    max-width: 100%;
-    object-fit: contain;
+    width: 100%;
 }
 
 
@@ -413,18 +404,17 @@ button {
     justify-content: center;
     width: 50%;
     height: 50%;
+    border: 10px solid rgba(0, 0, 0, 0);
 }
 
 #carosello .car-side .square img {
-    max-width: 50%;
-    height: auto;
+    width: 50%;
     object-fit: contain;
     filter: invert(100%);
 }
 
 .square-1 {
     background-color: rgb(162, 211, 155);
-    border: 10px solid rgb(209, 233, 205);
 }
 
 .square-2 {

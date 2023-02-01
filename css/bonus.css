@@ -1,0 +1,12 @@
+/* hover sui link nella nav */
+
+.bonus a:hover {
+    border-bottom: 2px solid blue;
+}
+
+/* i quadrati nel carosello cambiano colore
+    del border con hover */
+
+#carosello .car-side .square:hover {
+    border: 10px solid rgba(0, 0, 0, 0.1);
+}
