@@ -23,6 +23,12 @@
     box-shadow: 2px 2px 2px rgb(211, 211, 211, 0.7)
 }
 
+/* click su bottoni */
+
+button:active {
+    transform: translateY(2px);
+}
+
 /* mouse su bottoni */
 button {
     cursor: pointer;
@@ -37,10 +43,17 @@ button {
 /* checkbox - radio button */
 .fatturazione-bonus {
     display: none;
-    display: flex;
+    /* display: flex; */
     gap: 30px;
     margin-top: 50px;
 }
 
+/* hover su freccia in jumbo */
 
+.jumbo-testo .fa-arrow-down:hover {
+    color: blue;
+}
 
+.jumbo-testo .fa-arrow-down:active {
+    transform: translateY(2px);
+}
