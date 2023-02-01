@@ -1,7 +1,7 @@
 /* hover sui link nella nav */
 
 .bonus a:hover {
-    border-bottom: 2px solid blue;
+    box-shadow: 0 2px blue;
 }
 
 /* i quadrati nel carosello cambiano colore
@@ -9,4 +9,19 @@
 
 #carosello .car-side .square:hover {
     border: 10px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn-blu:hover {
+    background-color: rgb(0, 97, 255, 0.7);
+    box-shadow: 2px 2px 2px rgb(0, 97, 255, 0.7)
+}
+
+.btn-bianco:hover {
+    background-color: rgb(211, 211, 211);
+    box-shadow: 2px 2px 2px rgb(211, 211, 211, 0.7)
+}
+
+button {
+    cursor: pointer;
+
 }
