@@ -490,14 +490,21 @@ button {
     border-bottom: 1px solid gray;
 }
 
-.faq .domanda-faq {
-    display: flex;
-    justify-content: space-between;
+.faq .faq-container {
     margin-bottom: 50px;
     border-bottom: 1px solid gray;
     padding: 0 50px 50px 0;
 }
 
+.faq-domanda {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-risposta {
+    margin-top: 20px;
+    display: none;
+}
 
 
 
